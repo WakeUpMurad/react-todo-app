@@ -1,0 +1,22 @@
+.todosActionContainer {
+  margin: 5px;
+}
+.refreshLine .deleteIcon {
+  cursor: pointer;
+  color: lightgrey;
+  font-size: 1.8rem;
+  transition: transform 0.3s;
+}
+
+.refreshLine:hover .deleteIcon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.deleteIcon:hover {
+  color: red;
+}
+
+.refreshLine:hover {
+  color: green;
+}
